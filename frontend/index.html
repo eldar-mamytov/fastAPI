@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastAPI Frontend</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h1>Welcome to My FastAPI App</h1>
+
+    <h2>Greeting</h2>
+    <button id="fetchGreeting">Get Greeting</button>
+    <p id="greetMessage"></p>
+
+    <h2>Random Fact</h2>
+    <button id="fetchFact">Get Random Fact</button>
+    <p id="factMessage"></p>
+
+    <h2>Calculator</h2>
+    <form id="calcForm">
+        <input type="number" id="num1" placeholder="Enter first number" required>
+        <select id="operation">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input type="number" id="num2" placeholder="Enter second number" required>
+        <button type="submit">Calculate</button>
+    </form>
+    <p id="calcResult"></p>
+
+    <h2>Reverse Text</h2>
+    <input type="text" id="reverseInput" placeholder="Enter text">
+    <button id="reverseBtn">Reverse</button>
+    <p id="reverseOutput"></p>
+
+    <h2>Word Count</h2>
+    <input type="text" id="wordCountInput" placeholder="Enter text">
+    <button id="wordCountBtn">Count Words</button>
+    <p id="wordCountOutput"></p>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
